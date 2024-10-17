@@ -1,0 +1,43 @@
+/* app.css */
+
+main {
+    padding-top: 60px; /* Sesuaikan dengan tinggi navbar */
+}
+
+.custom-navbar {
+    background-color: #00C2FF !important; /* Ganti dengan warna yang diinginkan */
+    color: white !important; /* Ganti warna teks jika diperlukan */
+    position: fixed; /* Menjaga navbar tetap di atas */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.app-name {
+    color: white !important; /* Ubah warna teks menjadi putih */
+    font-family: 'Arial', sans-serif; /* Ganti dengan font yang diinginkan */
+    font-size: 1.5rem; /* Sesuaikan ukuran font */
+    font-weight: bold; /* Ubah gaya font jika diperlukan */
+}
+
+.navbar .nav-link {
+    font-family: 'Roboto', sans-serif; /* Gunakan font yang sama */
+    font-size: 1rem; /* Ukuran font */
+    padding: 0.5rem 1rem; /* Spasi di sekitar link */
+}
+
+.navbar .nav-link:hover {
+    color: blue !important; /* Ubah warna link saat hover */
+}
+
+.navbar a {
+    color: white; /* Ganti dengan warna yang diinginkan */
+}
+
+.logo {
+    height: 90px !important; /* Sesuaikan tinggi sesuai kebutuhan */
+    width: auto !important;
+    margin-right: 0.5rem; /* Jarak antara logo dan teks */
+    vertical-align: middle; /* Menjaga logo dan teks sejajar secara vertikal */
+}
