@@ -1,0 +1,110 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header Styles */
+header {
+    background-color: #3b82f6; /* Tailwind Blue */
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    height: 50px;
+    width: 50px;
+}
+
+/* Navigation Links */
+header nav a {
+    color: white;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Cart Icon Styles */
+.cart-icon {
+    width: 24px; /* Adjust icon size */
+    height: 24px;
+    vertical-align: middle;
+}
+
+/* Cart Count Badge */
+.cart-count {
+    background-color: red; /* Badge background color */
+    color: white; /* Badge text color */
+    border-radius: 50%; /* Circular shape */
+    padding: 2px 6px; /* Padding for badge */
+    margin-left: 5px; /* Space from icon */
+    font-size: 14px; /* Font size */
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Remove space between cells */
+}
+
+th,
+td {
+    padding: 16px; /* Cell padding */
+}
+
+th {
+    background-color: #f3f4f6; /* Gray-200 */
+}
+
+td {
+    border-bottom: 1px solid #e5e7eb; /* Gray-300 */
+}
+
+/* Button Styles */
+button {
+    background-color: #3b82f6; /* Tailwind Blue */
+    color: white;
+    padding: 8px 16px; /* Button padding */
+    border-radius: 8px; /* Rounded corners */
+    border: none; /* No border */
+    cursor: pointer; /* Pointer on hover */
+}
+
+button:hover {
+    background-color: #2563eb; /* Tailwind Blue-700 */
+}
+
+/* Additional Button Styles (for checkout) */
+.checkout-button {
+    background-color: #00C2FF; /* Light Blue for checkout button */
+    color: white; /* White text */
+    padding: 0.5rem 1.5rem; /* Padding */
+    border-radius: 0.375rem; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Bold text */
+    display: inline-block; /* Allow padding to apply */
+    margin-left: auto; /* Pushes the button to the right */
+}
+
+.checkout-button:hover {
+    background-color: #3182ce; /* Darker blue on hover */
+}
+
+/* Total Price Styles */
+.total-container {
+    display: flex;
+    justify-content: space-between; /* Space between total label and amount */
+    align-items: center; /* Center align items vertically */
+    padding: 1rem; /* Add padding */
+    border-top: 2px solid #e2e8f0; /* Light gray border */
+    margin-top: 1rem; /* Add space above */
+}
+
+.total-price {
+    font-size: 1.25rem; /* Increase font size */
+    color: #00C2FF; /* Change color to a blue shade */
+}
