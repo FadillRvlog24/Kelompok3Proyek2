@@ -1,0 +1,140 @@
+/* public/css/checkout.css */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.table {
+    width: 100%;
+    margin-top: 2rem;
+    border-top: 1px solid #ccc;
+}
+
+.table th, .table td {
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.header {
+    background-color: #007bff;
+    color: white;
+    padding: 1rem;
+}
+
+/* checkout.css */
+
+/* Kontainer utama untuk checkout */
+.checkout-container {
+    max-width: 600px; /* Maksimal lebar kontainer */
+    margin: 0 auto; /* Pusatkan kontainer */
+    padding: 20px; /* Beri padding di dalam kontainer */
+    background-color: #f9f9f9; /* Warna latar belakang */
+    border-radius: 8px; /* Sudut membulat */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Bayangan */
+}
+
+/* Judul checkout */
+.checkout-title {
+    text-align: center; /* Pusatkan teks */
+    font-size: 24px; /* Ukuran font */
+    margin-bottom: 20px; /* Margin bawah */
+}
+
+/* Form grup */
+.form-group {
+    margin-bottom: 15px; /* Jarak antar grup */
+}
+
+/* Label form */
+.form-label {
+    display: block; /* Buat label tampil sebagai blok */
+    margin-bottom: 5px; /* Jarak bawah label */
+    font-weight: bold; /* Tebalkan font */
+}
+
+/* Input dan textarea */
+.form-input {
+    width: 100%; /* Lebar penuh */
+    padding: 10px; /* Padding dalam input */
+    border: 1px solid #ccc; /* Warna border */
+    border-radius: 4px; /* Sudut membulat */
+    font-size: 16px; /* Ukuran font */
+}
+
+/* Styling untuk select */
+.form-input select {
+    appearance: none; /* Menghilangkan gaya default */
+    background-color: white; /* Warna latar belakang */
+    padding-right: 20px; /* Padding kanan untuk memberi ruang bagi panah dropdown */
+}
+
+/* Gaya untuk grup ongkos kirim */
+.form-group {
+    margin-bottom: 20px; /* Jarak bawah grup */
+}
+
+/* Gaya untuk label ongkos kirim */
+.form-label {
+    font-weight: bold; /* Tebalkan font label */
+    margin-bottom: 5px; /* Jarak bawah label */
+}
+
+/* Gaya untuk input radio */
+.form-input[type="radio"] {
+    margin-right: 10px; /* Jarak kanan untuk memberikan ruang antara radio button dan label */
+}
+
+/* Gaya untuk label yang membungkus input radio */
+label {
+    display: flex; /* Gunakan flexbox untuk menjaga penempatan yang baik */
+    align-items: center; /* Rata tengah secara vertikal */
+    cursor: pointer; /* Kursor pointer saat hover */
+    padding: 5px; /* Beri padding untuk meningkatkan area klik */
+    border: 1px solid #ccc; /* Border untuk setiap label */
+    border-radius: 4px; /* Sudut membulat */
+    transition: background-color 0.3s; /* Animasi saat hover */
+}
+
+/* Gaya saat hover */
+label:hover {
+    background-color: #f0f0f0; /* Warna latar belakang saat hover */
+}
+
+/* Gaya untuk radio button yang dipilih */
+input[type="radio"]:checked + label {
+    background-color: #007bff; /* Warna latar belakang untuk pilihan yang dipilih */
+    color: white; /* Ubah warna teks menjadi putih */
+}
+
+
+/* Tabel checkout */
+.checkout-table {
+    width: 100%; /* Lebar penuh */
+    border-collapse: collapse; /* Menghilangkan celah antara sel */
+    margin-top: 20px; /* Jarak atas tabel */
+}
+
+/* Header tabel */
+.checkout-table th, .checkout-table td {
+    border: 1px solid #ccc; /* Border */
+    padding: 10px; /* Padding */
+    text-align: left; /* Rata kiri */
+}
+
+/* Styling untuk tombol checkout */
+.checkout-btn-container {
+    text-align: right; /* Pusatkan tombol ke kanan */
+}
+
+.checkout-btn {
+    padding: 10px 20px; /* Padding dalam tombol */
+    background-color: #007bff; /* Warna latar belakang tombol */
+    color: white; /* Warna teks tombol */
+    border: none; /* Tanpa border */
+    border-radius: 4px; /* Sudut membulat */
+    font-size: 16px; /* Ukuran font */
+    cursor: pointer; /* Kursor pointer saat hover */
+}
+
+.checkout-btn:hover {
+    background-color: #0056b3; /* Warna saat hover */
+}
